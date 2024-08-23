@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* Corrigido para remover a lista de estilo */
+    padding: 0;
+    margin: 0; /* Adicionado para remover a margem padrão */
+}
+
+nav ul li {
+    display: inline; /* Corrigido para mostrar os itens na horizontal */
+    margin-right: 15px; /* Adicionado valor para margem à direita dos itens da lista */
+}
+.imagem {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px dashed black;
+}
